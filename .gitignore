@@ -1,1 +1,1 @@
-Nothing should be ignored based on the provided file changes. The only modified file is 'HW4_Custom_LSTM.ipynb', which is a Jupyter notebook file and should not be added to .gitignore. Since there are no build artifacts, dependencies, or temporary files in the changes, no additional ignore rules are needed.
+Nothing should be ignored in this case, as the changes only include source code files (.py, .ipynb) without any build artifacts, dependencies, or temporary files.
