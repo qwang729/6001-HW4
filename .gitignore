@@ -1,1 +1,88 @@
-Nothing needs to be added to .gitignore since only a Jupyter notebook file (.ipynb) was added, which is a source file that should be tracked in version control. There are no build artifacts, dependencies, or temporary files in the changes that require ignoring.
+*.ipynb_checkpoints
+**/.ipynb_checkpoints/*
+
+
+# Environment
+.env*
+.venv/
+venv/
+.env
+.env.local
+.env.*
+
+# Dependencies
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+**/.ipynb_checkpoints/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+dist/
+build/
+target/
+*.out
+*.exe
+*.dll
+*.so
+*.a
+*.o
+
+# Testing
+.pytest_cache/
+.mypy_cache/
+htmlcov/
+coverage/
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
